@@ -19,16 +19,16 @@ const contactMethods = [
   {
     icon: Github,
     label: 'GitHub',
-    value: 'github.com/kalpsenghani',
-    href: 'https://github.com/kalpsenghani',
+    value: 'github.com/sam-sarang',
+    href: 'https://github.com/sam-sarang',
     bg: 'bg-gray-700',
     iconColor: 'text-white',
   },
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    value: 'linkedin.com/in/kalpsenghani',
-    href: 'https://linkedin.com/in/kalpsenghani',
+    value: 'linkedin.com/in/akito-ito',
+    href: 'https://linkedin.com/in/akito-ito',
     bg: 'bg-blue-800',
     iconColor: 'text-white',
   },
@@ -91,7 +91,7 @@ const ProfessionalSummary = () => (
     </CardHeader>
     <CardContent>
       <p className="text-gray-300 text-base mb-8">
-              I'm a Full Stack Engineer with a specialization in AI and autonomous agents, creating intuitive and intelligent applications that solve complex problems.
+              I'm a Python Full Stack Engineer with a specialization in AI and autonomous agents, creating intuitive and intelligent applications that solve complex problems.
             </p>
             <div className="space-y-4 mb-8">
         {contactMethods.map((method) => (
