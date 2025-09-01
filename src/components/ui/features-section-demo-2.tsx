@@ -21,7 +21,7 @@ import {
 // Helper function to highlight keywords in text with simple bold and colors
 const highlightKeywords = (text: string) => {
   const keywords = [
-    'React', 'Node.js', 'TypeScript', 'AI', 'OpenAI', 'Python', 'AWS', 'Docker', 
+    'React', 'Django', 'FastAPI', 'TypeScript', 'AI', 'OpenAI', 'Python', 'AWS', 'Azure', 'Docker', 
     'SQL', 'NoSQL', 'CSS', 'authentication', 'security', 'performance', 'scalable',
     'microservices', 'automation', 'intelligent', 'robust', 'optimization'
   ];
@@ -40,7 +40,7 @@ export default function FeaturesSectionDemo() {
     {
       title: "Full Stack Development",
       description:
-        "Expert in building complete web applications from frontend to backend with modern technologies like React, Node.js, and TypeScript.",
+        "Expert in building complete web applications from frontend to backend with modern technologies like React, Django, FastAPI, and TypeScript.",
       icon: <IconCode className="w-6 h-6" />,
     },
     {
@@ -52,7 +52,7 @@ export default function FeaturesSectionDemo() {
     {
       title: "Cloud Architecture",
       description:
-        "Experienced in designing scalable cloud solutions with AWS, Docker, and microservices architecture for high-performance applications.",
+        "Experienced in designing scalable cloud solutions with AWS, Azure, Docker, and microservices architecture for high-performance applications.",
       icon: <IconCloud className="w-6 h-6" />,
     },
     {
