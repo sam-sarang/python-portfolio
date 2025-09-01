@@ -80,7 +80,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
           </CardDescription>
         </CardContent>
         
-        <CardFooter className="flex justify-between gap-4 pt-2">
+        {/* <CardFooter className="flex justify-between gap-4 pt-2">
           {project.demoUrl && (
             <Button asChild className={`w-full px-8 py-2 rounded-full ${
               project.status 
@@ -100,7 +100,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
               </a>
             </Button>
           )}
-        </CardFooter>
+        </CardFooter> */}
       </Card>
     </motion.div>
   );
