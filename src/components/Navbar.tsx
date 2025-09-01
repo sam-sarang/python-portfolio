@@ -53,11 +53,7 @@ const Navbar = () => {
             <div className="absolute inset-0 z-0 pointer-events-none">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-blue-900 rounded-full blur-2xl opacity-60 group-hover:opacity-90 transition-all duration-500"></div>
             </div>
-            <img 
-              src="/lovable-uploads/e9810342-de6a-4f13-9171-0077afe8c75a.png" 
-              alt="Kalp Logo" 
-              className="h-14 w-14 relative z-10" 
-            />
+            <h1 style={{ fontSize: 24 }}>Akito Ito</h1>
           </a>
           
           {/* Desktop Navigation */}
