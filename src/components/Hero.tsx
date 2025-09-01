@@ -78,7 +78,7 @@ const Hero = () => {
             </a>
           </motion.div>
           
-          <motion.div 
+          {/* <motion.div 
             className="flex flex-col sm:flex-row justify-center gap-4"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -107,7 +107,7 @@ const Hero = () => {
                 <Download className="w-5 h-5" />
               </Button>
             </div>
-          </motion.div>
+          </motion.div> */}
           
           <motion.div 
             className="mt-16 flex justify-center"
