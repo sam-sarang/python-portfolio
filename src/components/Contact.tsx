@@ -11,8 +11,8 @@ const contactMethods = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'kalpsenghani0601@gmail.com',
-    href: 'mailto:kalpsenghani0601@gmail.com',
+    value: 'akito.ito0204@gmail.com',
+    href: 'mailto:akito.ito0204@gmail.com',
     bg: 'bg-blue-700',
     iconColor: 'text-white',
   },
@@ -37,26 +37,26 @@ const contactMethods = [
 // LeetCode SVG
 const LeetCodeIcon = () => (
   <svg width="32" height="32" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M35.5 36.5L14 25.5L35.5 14.5" stroke="#FFA116" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
-    <path d="M14 25.5H35.5" stroke="#000" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M35.5 36.5L14 25.5L35.5 14.5" stroke="#FFA116" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M14 25.5H35.5" stroke="#000" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
   </svg>
 );
 // HackerRank SVG
 const HackerRankIcon = () => (
   <svg width="32" height="32" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="8" y="8" width="34" height="34" rx="8" fill="#2EC866"/>
-    <path d="M25 15V35" stroke="#fff" strokeWidth="4" strokeLinecap="round"/>
-    <path d="M18 25H32" stroke="#fff" strokeWidth="4" strokeLinecap="round"/>
+    <rect x="8" y="8" width="34" height="34" rx="8" fill="#2EC866" />
+    <path d="M25 15V35" stroke="#fff" strokeWidth="4" strokeLinecap="round" />
+    <path d="M18 25H32" stroke="#fff" strokeWidth="4" strokeLinecap="round" />
   </svg>
 );
 // Stack Overflow SVG
 const StackOverflowIcon = () => (
   <svg width="32" height="32" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="8" y="8" width="34" height="34" rx="8" fill="#F48024"/>
-    <path d="M18 35V30H32V35" stroke="#fff" strokeWidth="3" strokeLinecap="round"/>
-    <path d="M20 28L30 32" stroke="#fff" strokeWidth="3" strokeLinecap="round"/>
-    <path d="M22 24L32 28" stroke="#fff" strokeWidth="3" strokeLinecap="round"/>
-    <path d="M24 20L34 24" stroke="#fff" strokeWidth="3" strokeLinecap="round"/>
+    <rect x="8" y="8" width="34" height="34" rx="8" fill="#F48024" />
+    <path d="M18 35V30H32V35" stroke="#fff" strokeWidth="3" strokeLinecap="round" />
+    <path d="M20 28L30 32" stroke="#fff" strokeWidth="3" strokeLinecap="round" />
+    <path d="M22 24L32 28" stroke="#fff" strokeWidth="3" strokeLinecap="round" />
+    <path d="M24 20L34 24" stroke="#fff" strokeWidth="3" strokeLinecap="round" />
   </svg>
 );
 
@@ -91,9 +91,9 @@ const ProfessionalSummary = () => (
     </CardHeader>
     <CardContent>
       <p className="text-gray-300 text-base mb-8">
-              I'm a Python Full Stack Engineer with a specialization in AI and autonomous agents, creating intuitive and intelligent applications that solve complex problems.
-            </p>
-            <div className="space-y-4 mb-8">
+        I'm a Python Full Stack Engineer with a specialization in AI and autonomous agents, creating intuitive and intelligent applications that solve complex problems.
+      </p>
+      <div className="space-y-4 mb-8">
         {contactMethods.map((method) => (
           <a
             key={method.label}
@@ -125,7 +125,7 @@ const ProfessionalSummary = () => (
             <platform.icon />
           </a>
         ))}
-            </div>
+      </div>
     </CardContent>
   </Card>
 );
@@ -210,7 +210,7 @@ const ContactForm = () => {
           <div className="flex gap-4">
             <div className="flex-1 space-y-2">
               <label htmlFor="firstName" className="block text-base font-semibold text-white">First Name</label>
-              <Input 
+              <Input
                 id="firstName"
                 name="firstName"
                 value={formData.firstName}
@@ -222,7 +222,7 @@ const ContactForm = () => {
             </div>
             <div className="flex-1 space-y-2">
               <label htmlFor="lastName" className="block text-base font-semibold text-white">Last Name</label>
-              <Input 
+              <Input
                 id="lastName"
                 name="lastName"
                 value={formData.lastName}
@@ -235,7 +235,7 @@ const ContactForm = () => {
           </div>
           <div className="space-y-2">
             <label htmlFor="email" className="block text-base font-semibold text-white">Email</label>
-            <Input 
+            <Input
               id="email"
               name="email"
               type="email"
@@ -275,14 +275,13 @@ const ContactForm = () => {
             />
           </div>
           {submitStatus.type && (
-            <div className={`p-4 rounded-lg ${
-              submitStatus.type === 'success' ? 'bg-green-500/20 text-green-300' : 'bg-red-500/20 text-red-300'
-            }`}>
+            <div className={`p-4 rounded-lg ${submitStatus.type === 'success' ? 'bg-green-500/20 text-green-300' : 'bg-red-500/20 text-red-300'
+              }`}>
               {submitStatus.message}
             </div>
           )}
-          <Button 
-            type="submit" 
+          <Button
+            type="submit"
             disabled={isSubmitting}
             className="w-full bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold py-3 rounded-lg flex items-center justify-center gap-2 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
           >
@@ -299,7 +298,7 @@ const Contact = () => {
     <section id="contact" className="section-container">
       <div className="text-center mb-12">
         <h2 className="section-title">Let's connect</h2>
-          </div>
+      </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
         {/* Left: Professional Summary, Contact Methods, Coding Platforms */}
         <ProfessionalSummary />
